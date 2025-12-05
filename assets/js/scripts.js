@@ -747,7 +747,7 @@ document.addEventListener('DOMContentLoaded', () => {
 })();
 
 // Replace HTML placeholders with values from values.json
-fetch('../values.json')
+fetch('/assets/values.json')
   .then(res => res.json())
   .then(fields => {
 
