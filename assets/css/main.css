@@ -602,28 +602,6 @@ html.no-scroll {
   position: fixed;
 }
 
-.district-banner {
-  background-color: #f8f9fa;
-  padding: 2rem 0;
-  margin: 2rem 0;
-  border-top: 1px solid #e9ecef;
-  border-bottom: 1px solid #e9ecef;
-}
-
-.district-banner h1 {
-  color: #2c3e50;
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  line-height: 1.3;
-}
-
-.district-banner p {
-  color: #495057;
-  font-size: 1.1rem;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
 body {
   background: var(--page-bg);
   color: var(--text-color);
