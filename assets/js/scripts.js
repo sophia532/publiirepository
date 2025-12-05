@@ -745,3 +745,35 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 })();
+
+// Replace HTML placeholders with values from values.json
+fetch('values.json')
+  .then(res => res.json())
+  .then(fields => {
+
+    // Map of placeholder IDs to keys in values.json
+    const mapping = {
+      districtName: 'districtName',
+      salesLine: 'salesLine',
+      courtAddress: 'courtAddress',
+      clerkPhone: 'clerkPhone',
+      faxNumber: 'faxNumber',
+      townServed: 'townServed',
+      judgeName: 'judgeName',
+      chiefClerkName: 'chiefClerkName',
+      monHours: 'monHours',
+      tueHours: 'tueHours',
+      wedHours: 'wedHours',
+      thuHours: 'thuHours',
+      friHours: 'friHours'
+    };
+
+    // Replace each placeholder by ID
+    for (const id in mapping) {
+      const elem = document.getElementById(id);
+      if (elem && fields[mapping[id]]) {
+        elem.textContent = fields[mapping[id]];
+      }
+    }
+  })
+  .catch(err => console.error('Error loading values.json:', err));
