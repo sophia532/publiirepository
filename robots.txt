@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://sophia532.github.io/publiirepository/sitemap.xml

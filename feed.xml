@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>master-template</title>
+    <link href="https://sophia532.github.io/publiirepository/feed.xml" rel="self" />
+    <link href="https://sophia532.github.io/publiirepository" />
+    <updated>1969-12-31T19:00:00-05:00</updated>
+    <author>
+        <name>Sophia</name>
+    </author>
+    <id>https://sophia532.github.io/publiirepository</id>
+
+</feed>

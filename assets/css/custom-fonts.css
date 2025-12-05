@@ -1,0 +1,64 @@
+/* Custom Font Declarations */
+@font-face { 
+    font-family: 'HelveticaNeueLTPro'; 
+    src: url('../fonts/HelveticaNeueLTPro-Lt.woff2') format('woff2'); 
+    font-weight: 400; 
+    font-style: normal; 
+} 
+@font-face { 
+    font-family: 'HelveticaNeueLTPro'; 
+    src: url('../fonts/HelveticaNeueLTPro-Bd.woff2') format('woff2'); 
+    font-weight: 700; 
+    font-style: normal; 
+} 
+@font-face { 
+    font-family: 'HelveticaNeueLTPro-Bd-Condensed';
+    src: url('../fonts/HelveticaNeueLTPro-Bd-Condensed.woff2') format('woff2'); 
+    font-weight: 700; 
+    font-style: normal; 
+}
+
+/* Apply custom fonts to body and headings */ 
+body { 
+    font-family: 'HelveticaNeueLTPro', sans-serif; 
+    font-weight: 400; 
+    font-size: 18px; 
+} 
+h1 { 
+    font-family: 'HelveticaNeueLTPro', sans-serif; 
+    font-weight: 700; 
+    font-size: 40px; 
+} 
+h2 { 
+    font-family: 'HelveticaNeueLTPro', sans-serif; 
+    font-weight: 700; 
+    font-size: 30px; 
+} 
+h3 { 
+    font-family: 'HelveticaNeueLTPro', sans-serif; 
+    font-weight: 700; 
+    font-size: 25px; 
+} 
+h4 { 
+    font-family: 'HelveticaNeueLTPro', sans-serif; 
+    font-weight: 700; 
+    font-size: 22px; 
+} 
+h5 { 
+    font-family: 'HelveticaNeueLTPro', sans-serif; 
+    font-weight: 700; 
+    font-size: 20px; 
+} 
+h6 { 
+    font-family: 'HelveticaNeueLTPro', sans-serif; 
+    font-weight: 700; 
+    font-size: 18px; 
+}
+
+/* Menu Font (Condensed) */
+.navbar .navbar__menu li {
+   	font-family: 'HelveticaNeueLTPro-Bd-Condensed', sans-serif; 
+    font-weight: 700; 
+    font-size: 25px; 
+}
+
